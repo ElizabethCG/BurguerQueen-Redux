@@ -12,10 +12,10 @@ class MenuChoices extends React.Component{
     this.state = {
 
     showResume:false,
-    nuevoProducto:"",
+    // nuevoProducto:"",
   }
       this.handleClick = this.handleClick.bind(this);
-      this.handleClick3 = this.handleClick3.bind(this);
+      // this.handleClick3 = this.handleClick3.bind(this);
   }
 
   handleClick(event){
@@ -23,15 +23,15 @@ class MenuChoices extends React.Component{
     };
 
 
-    handleClick3(event){
-      this.setState({
-        ...this.state,
-        nuevoProducto : event.target,
-        });
-
-     {this.props.breakfast(this.state.nuevoProducto)};
-
-      };
+    // handleClick3(event){
+    //   this.setState({
+    //     ...this.state,
+    //     nuevoProducto : event.target,
+    //     });
+    //
+    //  {this.props.breakfast(this.state.nuevoProducto)};
+    //
+    //   };
 
 
 
@@ -42,7 +42,7 @@ class MenuChoices extends React.Component{
       if (men.comida===this.props.meal){
           return (
             <div>
-              <button name={men.tipo} value={men.precio} onClick={this.handleClick3}>{men.tipo}</button>
+              <button name={men.tipo} value={men.precio} onClick={(event)=>{this.props.breakfast(event.target)}}>{men.tipo}</button>
             </div>
           )}
         })
