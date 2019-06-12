@@ -1,13 +1,13 @@
-import { BREAKFAST, LUNCH } from "./actionTypes2";
+import { BREAKFAST, LUNCH } from "./actionTypes";
 
 export const selectBreakFast = dispatch => {
   return (event) => {
-  dispatch({
-    type: BREAKFAST,
-    payload: event
+    dispatch({
+      type: BREAKFAST,
+      payload: event
 
-  })
- }
+    })
+  }
 }
 
 

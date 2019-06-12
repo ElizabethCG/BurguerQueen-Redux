@@ -2,123 +2,111 @@
   "menu": [
     {
       "comida": "Desayuno",
-      "clasificacion":"bebidas",
+      "clasificacion": "bebidas",
       "tipo": "Café Americano",
       "precio": "500"
     },
-
     {
       "comida": "Desayuno",
-      "clasificacion":"bebidas",
+      "clasificacion": "bebidas",
       "tipo": "Café con leche",
       "precio": "700"
     },
-
     {
       "comida": "Desayuno",
-      "clasificacion":"bebidas",
+      "clasificacion": "bebidas",
       "tipo": "Jugo natural",
       "precio": "700"
     },
-
     {
       "comida": "Desayuno",
-      "clasificacion":"sandwich",
+      "clasificacion": "sandwich",
       "tipo": "Sandwich Jamón Queso",
       "precio": "1000"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"hamburguesa",
+      "clasificacion": "hamburguesa",
       "tipo": "Hamburguesa simple Res",
       "precio": "1500"
     },
     {
       "comida": "Menú diario",
-      "clasificacion":"hamburguesa",
+      "clasificacion": "hamburguesa",
       "tipo": "Hamburguesa simple pollo",
       "precio": "1500"
     },
     {
       "comida": "Menú diario",
-      "clasificacion":"hamburguesa",
+      "clasificacion": "hamburguesa",
       "tipo": "Hamburguesa simple vegetariana",
       "precio": "1500"
     },
     {
       "comida": "Menú diario",
-      "clasificacion":"hamburguesa",
+      "clasificacion": "hamburguesa",
       "tipo": "Hamburguesa doble Res",
       "precio": "2500"
     },
     {
       "comida": "Menú diario",
-      "clasificacion":"hamburguesa",
+      "clasificacion": "hamburguesa",
       "tipo": "Hamburguesa doble pollo",
       "precio": "2500"
     },
     {
       "comida": "Menú diario",
-      "clasificacion":"hamburguesa",
+      "clasificacion": "hamburguesa",
       "tipo": "Hamburguesa doble vegetariana",
       "precio": "2500"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"agregado",
+      "clasificacion": "agregado",
       "tipo": "Agregado Queso",
       "precio": "500"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"agregado",
+      "clasificacion": "agregado",
       "tipo": "Agregado Huevo",
       "precio": "500"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"acompañamiento",
+      "clasificacion": "acompañamiento",
       "tipo": "Papas Fritas",
       "precio": "500"
     },
     {
       "comida": "Menú diario",
-      "clasificacion":"acompañamiento",
+      "clasificacion": "acompañamiento",
       "tipo": "Onion Rings",
       "precio": "500"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"bebidas",
+      "clasificacion": "bebidas",
       "tipo": "Agua 500 ml",
       "precio": "500"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"bebidas",
+      "clasificacion": "bebidas",
       "tipo": "Gaseosa 500 ml",
       "precio": "700"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"bebidas",
+      "clasificacion": "bebidas",
       "tipo": "Agua 750 ml",
       "precio": "500"
     },
-
     {
       "comida": "Menú diario",
-      "clasificacion":"bebidas",
+      "clasificacion": "bebidas",
       "tipo": "Gaseosa 750 ml",
       "precio": "700"
     }
-
   ]
 }

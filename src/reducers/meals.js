@@ -1,21 +1,21 @@
-import { BREAKFAST, LUNCH } from "../actions/actionTypes2";
+import { BREAKFAST, LUNCH } from "../actions/actionTypes";
 
 export default (
   state = {
-    menuChoices :["hola"],
-    menuPrices : ["ely"],
+    menuChoices: [],
+    menuPrices: [],
   },
   action
 ) => {
-  switch(action.type){
+  switch (action.type) {
 
     case BREAKFAST:
-    return  {
-      ...state,
+      return {
+        ...state,
 
-      menuChoices: [...state.menuChoices, action.payload.name],
-      menuPrices : [...state.menuPrices, action.payload.value],
-    }
+        menuChoices: [...state.menuChoices, action.payload.name],
+        menuPrices: [...state.menuPrices, action.payload.value],
+      }
 
 
 
@@ -23,7 +23,7 @@ export default (
       return {
         ...state,
         menuChoices: [...state.menuChoices, action.payload.name],
-        menuPrices : [...state.menuPrices, action.payload.value],
+        menuPrices: [...state.menuPrices, action.payload.value],
       }
 
     default: return state;

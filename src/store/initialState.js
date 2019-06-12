@@ -1,6 +1,6 @@
 export default {
-  meals : {
+  meals: {
     menuChoices: [],
-    menuPrices : [],
+    menuPrices: [],
   }
 };

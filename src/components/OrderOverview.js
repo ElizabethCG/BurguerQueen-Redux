@@ -1,57 +1,43 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
+class OrderOverview extends Component {
 
-class  OrderOverview extends Component{
-
-
-  render(){
-  
-    const pedido = this.props.menuPrice.map((menuChoice, i) => {
+  render() {
+    const pedido = this.props.meals.menuChoices.map((menuChoice, i) => {
       return (
-        <p>{menuChoice}</p>
-      )})
+        <p key = {i}>{menuChoice}</p>
+      )
+    })
 
+    const precio = this.props.meals.menuPrices.map((menuPrice, i) => {
+      return (
+        <p key= {i}>{menuPrice}</p>
+      )
+    })
 
-      const precio = this.props.menuPrice.map((menuPrice, i) => {
-
-        return (
-          <p>{menuPrice}</p>
-        )})
-
-
-    const total = this.props.menuPrice.reduce((prev, act, i) => {
+    const total = this.props.meals.menuPrices.reduce((prev, act, i) => {
       return parseInt(prev) + parseInt(act);
     }, 0)
-    // console.log("Precio > "+precio)
-    console.log("Props > "+JSON.stringify(this.props.meals));
-
 
 
     return (
 
-    <div>
-
-    <hr/>
-      <p>RESUMEN PEDIDO</p>
-      <span>Nombre Cliente: {this.props.cliente}</span>
-
-      <p>{pedido}</p>
-      <p>{precio}</p>
-      <p>{total}</p>
-
-
-
+      <div>
+        <hr />
+        <p>RESUMEN PEDIDO</p>
+        <span>Nombre Cliente: {this.props.cliente}</span>
+        <div>{pedido}</div >
+        <div>{precio}</div>
+        <p>{total}</p>
       </div>
 
     );
-
-      console.log("Props > "+JSON.stringify(this.props.meals));
   }
 }
 
 
-const mapStateToProps = (state)=>{
+const mapStateToProps = (state) => {
   return {
     ...state
   };
